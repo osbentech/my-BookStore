@@ -10,12 +10,12 @@ const Header = () => (
             Bookstore CMS
           </span>
           <nav className="lists">
-            <a href="/Books" className="BOOKS Text-Style-3">
+            <Link to="/Books" className="BOOKS Text-Style-3">
                BOOKS
-            </a>
-            <a href="/categories" className="CATEGORIES Text-Style-3">
+            </Link>
+            <Link to="/categories" className="CATEGORIES Text-Style-3">
                CATEGORIES
-            </a>
+            </Link>
           </nav>
         </div>
       </header>
