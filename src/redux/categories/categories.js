@@ -1,11 +1,14 @@
 const STAT = 'bookStore/categories/STATUS';
 
-const initialState = 'status Unknown';
+const initialState = {
+  categories: [],
+};
+
 
 export default function categoryReduce(state = initialState, action) {
   switch (action.type) {
     case STAT:
-      return 'still constructing';
+      return 'Under creation';
     default:
       return state;
   }

@@ -1,29 +1,34 @@
 const ADD = 'bookStore/books/ADD';
 const REMOVE = 'bookStore/books/REMOVE';
 
-const initialState = [];
+const initialState = {
+  bookArr: [],
+};
 
 export default function bookReduce(state = initialState, action) {
-  switch (action.type) {
+  switch (action.types) {
     case ADD:
-      return [...state, action.book];
+      return {
+        ...state,
+        bookArr: [...state.bookArr, action],
+      };
     case REMOVE:
-      return [...state.filter((book) => book.id !== action.id)];
+      return {
+        bookArr: [...state.bookArr.filter((book) => book.item_id !== action.item_id)],
+      };
     default:
       return state;
   }
 }
 
-export function add(book) {
+export function add() {
   return {
     type: ADD,
-    book,
   };
 }
 
-export function remove(id) {
+export function remove() {
   return {
     type: REMOVE,
-    id,
   };
 }
