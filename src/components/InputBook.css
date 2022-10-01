@@ -13,6 +13,8 @@ h1 {
 
 .form-container {
   margin-top: 1.125rem;
+  display: flex;
+  align-items: center;
 }
 
 .input-title {

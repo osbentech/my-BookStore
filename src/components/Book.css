@@ -15,11 +15,14 @@
   margin: auto 0 auto 40px;
 }
 
-.book-button {
-  height: 70px;
+.book-holder p {
+  color: #4386bf;
+}
+
+.status {
+  height: 50px;
   width: 20%;
   margin: auto 30px auto 0;
-  border-radius: 50px;
 }
 
 .section {
@@ -51,6 +54,12 @@
   line-height: normal;
   letter-spacing: normal;
   color: #4386bf;
+  background-color: #fafafa;
+  border: #fafafa;
+}
+
+.delete:hover {
+  cursor: pointer;
 }
 
 .edit {
@@ -65,13 +74,6 @@
   line-height: normal;
   letter-spacing: normal;
   color: #4386bf;
-}
-
-.Line-2 {
-  width: 0.125rem;
-  height: 4.375rem;
-  margin: 1.125rem 3.688rem 0 4.938rem;
-  border: solid 1px #e8e8e8;
 }
 
 .Current-Chapter {
