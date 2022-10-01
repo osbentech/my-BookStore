@@ -1,8 +1,6 @@
 const STAT = 'bookStore/categories/STATUS';
 
-const initialState = {
-  categories: [],
-};
+const initialState = 'Unknown status';
 
 
 export default function categoryReduce(state = initialState, action) {
