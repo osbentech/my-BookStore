@@ -7,7 +7,7 @@ const Books = () => {
   return (
     <>
     <Header />
-    <Book title="Things fall Apart" author="Chinua Achebe" />
+    <Book />
     <InputBook />
   </>
   )
