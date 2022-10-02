@@ -10,7 +10,7 @@ const InputBook = () => {
   const [author, setAuthor] = useState('Author');
   const [category, setCategory] = useState('category');
 
-  const CATEGORIES = ['Action'];
+  const CATEGORIES = ['du'];
   const submitBookToStore = (e) => {
     e.preventDefault();
     const newBook = {
@@ -37,7 +37,7 @@ const InputBook = () => {
           placeholder={author}
           onChange={(e) => setAuthor(e.target.value)}
         />
-        <select
+        {/* <select
           required
           className="input-title"
           value={category}
@@ -48,7 +48,7 @@ const InputBook = () => {
               {category}
             </option>
           ))}
-        </select>
+        </select> */}
         <button type="submit" className="input-submit">
           ADD BOOK
         </button>
