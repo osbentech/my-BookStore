@@ -12,7 +12,7 @@
 
 .book-holder {
   text-align: left;
-  margin: auto 0 auto 40px;
+  /* margin: auto 0 auto 40px; */
 }
 
 .status {
@@ -52,6 +52,10 @@
   color: #4386bf;
   background-color: #fafafa;
   border: #fafafa;
+}
+
+.delete:hover {
+  cursor: pointer;
 }
 
 .edit {
