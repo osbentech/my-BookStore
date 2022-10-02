@@ -10,7 +10,7 @@ const InputBook = () => {
   const [author, setAuthor] = useState('Author');
   const [category, setCategory] = useState('category');
 
-  const CATEGORIES = ['mao'];
+  const CATEGORIES = ['Action'];
   const submitBookToStore = (e) => {
     e.preventDefault();
     const newBook = {
