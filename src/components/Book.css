@@ -11,7 +11,11 @@
 }
 
 .book-holder {
-  text-align: left;
+  text-align: justify;
+}
+
+.book-holder p {
+  color: #4386bf;
 }
 
 .status {
